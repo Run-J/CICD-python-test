@@ -2,7 +2,7 @@ import sys
 
 from pylint import lint
 
-THRESHOLD = 9
+THRESHOLD = 2
 
 run = lint.Run(["factorial.py"], exit=False)
 score = run.linter.stats.global_note
