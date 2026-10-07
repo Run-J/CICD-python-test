@@ -18,7 +18,7 @@ def sum_factorial():
         final_list.append(factorial(i))
 
     result = sum(final_list)
-    print("Final SUM is {}".format(result))
+    print("Final SUM = {}".format(result))
 
     return result
 
